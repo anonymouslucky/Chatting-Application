@@ -1,0 +1,366 @@
+body {
+  font-family: 'Myriad Pro', 'Trebuchet MS', sans-serif;
+}
+
+.login {
+  width: 340px;
+  background-color: #0997c1;
+  border-radius: 5px;
+  padding: 20px;
+  background-image: -webkit-linear-gradient(90deg, #047597, #0997c1);
+  position: absolute;
+  left: 50%;
+  top: 150px;
+  margin-left: -170px;
+  box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.2) inset, 0px 0px 2px rgba(0, 0, 0, 0.5);
+}
+.login h2 {
+  color: white;
+  font-size: 20px;
+  margin: 0 0 15px;
+  text-shadow: 0px -1px rgba(0, 0, 0, 0.5);
+}
+.login fieldset {
+  border: 0;
+  padding: 0;
+  margin-bottom: 10px;
+}
+.login fieldset input {
+  outline: none;
+  width: 300px;
+  height: 12px;
+  display: block;
+  background: #047597;
+  border: 1px solid #10586e;
+  margin: 0;
+  padding: 13px 15px;
+  font-size: 13px;
+  color:white;
+}
+.login fieldset input:focus, .login fieldset input:active {
+  background-color: #047597;
+}
+.login fieldset input:nth-child(1) {
+  border-radius: 5px 5px 0 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1) inset;
+}
+.login fieldset input:nth-child(2) {
+  position: relative;
+  top: -1px;
+  border-radius: 0 0 5px 5px;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1) inset, 0 1px 0 rgba(255, 255, 255, 0.4);
+}
+.login fieldset ::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+.login input[type="submit"] {
+  margin: 0;
+  display: block;
+  padding: 13px 0;
+  width: 335px;
+  font-size: 13px;
+  font-weight: bold;
+  border: 0;
+  text-shadow: 0px 1px 0px rbga(255, 255, 255, 1);
+  background-color: #5cb85c;
+  background-image: -webkit-linear-gradient(90deg, #36a636, #5cb85c);
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  color:#fff;
+}
+.login input[type="submit"]:hover {
+  background-color: #36a636;
+  background-image: -webkit-linear-gradient(90deg, #5cb85c, #36a636);
+  color:#525252;
+}
+.login .utilities {
+  margin-top: 20px;
+}
+.login .msg {
+  margin: 10px;
+  color:#ff9036;
+}
+.login .utilities a {
+  color: #5cb85c;
+  text-decoration: none;
+  font-size: 12px;
+  text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.4);
+}
+.login .utilities a:hover {
+  color: white;
+}
+.login .utilities a:nth-child(2) {
+  display: block;
+  float: right;
+  width: 50%;
+  text-align: right;
+}
+.login:before, .login:after {
+  z-index: -1;
+  position: absolute;
+  content: "";
+  left: 5px;
+  width: 53%;
+  top: 15px;
+  height: 80%;
+  bottom: 80%;
+  max-width: 300px;
+  background: rgba(0, 0, 0, 0.7);
+  box-shadow: -10px -15px 20px rgba(0, 0, 0, 0.2);
+  -webkit-transform: rotate(-3deg);
+}
+.login:after {
+  box-shadow: 10px -15px 20px rgba(0, 0, 0, 0.2) !important;
+  -webkit-transform: rotate(3deg);
+  right: 5px;
+  left: auto;
+}
+
+
+.resetpassword {
+  width: 340px;
+  background-color: #0997c1;
+  border-radius: 5px;
+  padding: 20px;
+  background-image: -webkit-linear-gradient(90deg, #047597, #0997c1);
+  position: absolute;
+  left: 50%;
+  top: 100px;
+  margin-left: -170px;
+  box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.2) inset, 0px 0px 2px rgba(0, 0, 0, 0.5);
+}
+.resetpassword h2 {
+  color: white;
+  font-size: 20px;
+  margin: 0 0 15px;
+  text-shadow: 0px -1px rgba(0, 0, 0, 0.5);
+}
+.resetpassword fieldset {
+  border: 0;
+  padding: 0;
+  margin-bottom: 10px;
+}
+.resetpassword fieldset input {
+  outline: none;
+  width: 300px;
+  height: 12px;
+  display: block;
+  background: #047597;
+  border: 1px solid #10586e;
+  margin: 0;
+  padding: 13px 15px;
+  font-size: 13px;
+  color:white;
+}
+.resetpassword fieldset input:focus, .resetpassword fieldset input:active {
+  background-color: #5cb85c;
+}
+.resetpassword fieldset input:nth-child(1) {
+  border-radius: 5px 5px 0 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1) inset;
+}
+.resetpassword fieldset input:nth-child(2) {
+  position: relative;
+  top: -1px;
+  border-radius: 0 0 5px 5px;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1) inset, 0 1px 0 rgba(255, 255, 255, 0.4);
+}
+.resetpassword fieldset ::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+.resetpassword input[type="submit"] {
+  margin: 0;
+  display: block;
+  padding: 13px 0;
+  width: 135px;
+  font-size: 13px;
+  font-weight: bold;
+  border: 0;
+  text-shadow: 0px 1px 0px rbga(255, 255, 255, 1);
+  background-color: #5cb85c;
+  background-image: -webkit-linear-gradient(90deg, #36a636, #5cb85c);
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  color:#fff;
+}
+.resetpassword input[type="submit"]:hover {
+  background-color: #36a636;
+  background-image: -webkit-linear-gradient(90deg, #5cb85c, #36a636);
+  color:#525252;
+}
+.resetpassword .utilities {
+  margin-bottom: 5px;
+}
+.resetpassword .msg {
+  margin: 10px;
+  color:#ff9036;
+}
+.resetpassword .clrflds a {
+  color: #970505;
+  text-decoration: none;
+  font-size: 12px;
+  text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.4);
+}
+.resetpassword .utilities a {
+  color: #5cb85c;
+  text-decoration: none;
+  font-size: 12px;
+  text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.4);
+}
+.resetpassword .utilities a:hover {
+  color: white;
+}
+.resetpassword .utilities a:nth-child(2) {
+  display: block;
+  float: right;
+  width: 50%;
+  text-align: right;
+}
+.resetpassword:before, .resetpassword:after {
+  z-index: -1;
+  position: absolute;
+  content: "";
+  left: 5px;
+  width: 53%;
+  top: 15px;
+  height: 80%;
+  bottom: 80%;
+  max-width: 300px;
+  background: rgba(0, 0, 0, 0.7);
+  box-shadow: -10px -15px 20px rgba(0, 0, 0, 0.2);
+  -webkit-transform: rotate(-3deg);
+}
+.resetpassword:after {
+  box-shadow: 10px -15px 20px rgba(0, 0, 0, 0.2) !important;
+  -webkit-transform: rotate(3deg);
+  right: 5px;
+  left: auto;
+}
+
+
+.changepasswordforce {
+  width: 340px;
+  background-color: #0997c1;
+  border-radius: 5px;
+  padding: 20px;
+  background-image: -webkit-linear-gradient(90deg, #047597, #0997c1);
+  position: absolute;
+  left: 50%;
+  top: 100px;
+  margin-left: -170px;
+  box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.2) inset, 0px 0px 2px rgba(0, 0, 0, 0.5);
+}
+.changepasswordforce h2 {
+  color: white;
+  font-size: 20px;
+  margin: 0 0 15px;
+  text-shadow: 0px -1px rgba(0, 0, 0, 0.5);
+}
+.changepasswordforce fieldset {
+  border: 0;
+  padding: 0;
+  margin-bottom: 10px;
+}
+.changepasswordforce fieldset input {
+  outline: none;
+  width: 300px;
+  height: 12px;
+  display: block;
+  background: #047597;
+  border: 1px solid #10586e;
+  margin: 0;
+  padding: 13px 15px;
+  font-size: 13px;
+  color:white;
+}
+.changepasswordforce fieldset input:focus, .changepasswordforce fieldset input:active {
+  background-color: #5cb85c;
+}
+.changepasswordforce fieldset input:nth-child(1) {
+  border-radius: 5px 5px 0 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1) inset;
+}
+.changepasswordforce fieldset input:nth-child(2) {
+  position: relative;
+  top: 0;
+  border-radius: 0 0 0 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1) inset;
+}
+
+.changepasswordforce fieldset input:nth-child(3) {
+  position: relative;
+  top: -1px;
+  border-radius: 0 0 5px 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1) inset, 0 1px 0 rgba(255, 255, 255, 0.4);
+}
+.changepasswordforce fieldset ::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+.changepasswordforce input[type="submit"] {
+  margin: 0;
+  display: block;
+  padding: 13px 0;
+  width: 135px;
+  font-size: 13px;
+  font-weight: bold;
+  border: 0;
+  text-shadow: 0px 1px 0px rbga(255, 255, 255, 1);
+  background-color: #5cb85c;
+  background-image: -webkit-linear-gradient(90deg, #36a636, #5cb85c);
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  color:#fff;
+}
+.changepasswordforce input[type="submit"]:hover {
+  background-color: #36a636;
+  background-image: -webkit-linear-gradient(90deg, #5cb85c, #36a636);
+  color:#525252;
+}
+.changepasswordforce .utilities {
+  margin-bottom: 5px;
+}
+.changepasswordforce .msg {
+  margin: 10px;
+  color:#ff9036;
+}
+.changepasswordforce .clrflds a {
+  color: #970505;
+  text-decoration: none;
+  font-size: 12px;
+  text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.4);
+}
+.changepasswordforce .utilities a {
+  color: #5cb85c;
+  text-decoration: none;
+  font-size: 12px;
+  text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.4);
+}
+.changepasswordforce .utilities a:hover {
+  color: white;
+}
+.changepasswordforce .utilities a:nth-child(2) {
+  display: block;
+  float: right;
+  width: 50%;
+  text-align: right;
+}
+.changepasswordforce:before, .changepasswordforce:after {
+  z-index: -1;
+  position: absolute;
+  content: "";
+  left: 5px;
+  width: 53%;
+  top: 15px;
+  height: 80%;
+  bottom: 80%;
+  max-width: 300px;
+  background: rgba(0, 0, 0, 0.7);
+  box-shadow: -10px -15px 20px rgba(0, 0, 0, 0.2);
+  -webkit-transform: rotate(-3deg);
+}
+.changepasswordforce:after {
+  box-shadow: 10px -15px 20px rgba(0, 0, 0, 0.2) !important;
+  -webkit-transform: rotate(3deg);
+  right: 5px;
+  left: auto;
+}

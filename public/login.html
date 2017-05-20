@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<head>
+<meta charset="UTF-8" />
+<title>
+	CHATTING-JECKY
+</title>
+    <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+    <script type="text/javascript" src ="/javascripts/client.js"></script>
+    <link href="/stylesheets/normalise.css" rel="stylesheet" />
+    <link href="/stylesheets/style.css" rel="stylesheet" />
+    <link href="/stylesheets/Default.css" type="text/css" rel="stylesheet" />
+</head>
+<body style="background: #047597  !important;">
+    <div id="Login">
+        <div class="login">
+            <h2>Get Started</h2>
+            <fieldset>
+                <input id="username" type="text"  placeholder="UserName" />
+                <input id="password" type="password"  placeholder="Password" />
+            </fieldset>
+            <input type="submit" name="btnLogin" value="Log In" class="btn btn-primary" onclick="login()" />
+            <a href="signUp.html">SIGN UP</a>
+            
+        <div id = "chat">
+            
+        </div>
+        </div>
+
+        <div  id="error-container">
+            
+        </div>
+    </div>
+
+    <div id="chatting">
+        
+    </div>
+    
+</form>
+</body>
+</html>

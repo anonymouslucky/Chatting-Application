@@ -1,0 +1,533 @@
+/*------------------------------BUTTON STYLE--------------------------*/
+
+.submit {
+    color: #fff;
+    border-color: #5cb85c;
+    padding: 5px 5px 5px 28px;
+    background:#449d44 url(Images/check.png) no-repeat scroll 5px center; 
+    background-size: 18px 18px;
+}
+    .submit:hover {
+        color: #fff;
+        background-color: #4cae4c;
+        border-color: #398439;
+    }
+
+.remove {
+    color: #fff;
+    border-color: #ac2925;
+    padding: 5px 5px 5px 28px;
+    background:#c9302c url(Images/minus.png) no-repeat scroll 5px center; 
+    background-size: 18px 18px;    
+}
+    .remove:hover {
+        color: #fff;
+        background-color: #d9534f;
+        border-color: #d43f3a;
+    }
+
+.add {
+    color: #fff;
+    border-color: #285e8e;
+    padding: 5px 5px 5px 28px;
+    background:#3071a9 url(Images/plus.png) no-repeat scroll 5px center; 
+    background-size: 18px 18px;    
+}
+    .add:hover {
+        color: #fff;
+        background-color: #428bca;
+        border-color: #357ebd;
+    }
+
+.next {
+    color: #fff;
+    border-color: #269abc;
+    padding: 5px 28px 5px 5px;
+    background:#31b0d5 url(Images/right.png) no-repeat scroll right 5px center; 
+    background-size: 18px 18px;    
+}
+    .next:hover {
+        color: #fff;
+        background-color: #5bc0de;
+        border-color: #46b8da;
+    }
+
+.previous {
+    color: #fff;
+    border-color: #269abc;
+    padding: 5px 5px 5px 28px;
+    background:#31b0d5 url(Images/left.png) no-repeat scroll 5px center; 
+    background-size: 18px 18px;    
+}
+    .previous:hover {
+        color: #fff;
+        background-color: #5bc0de;
+        border-color: #46b8da;
+    }
+
+.save {
+    color: #fff;
+    border-color: #285e8e;
+    padding: 5px 5px 5px 28px;
+    background:#3071a9 url(Images/save.png) no-repeat scroll 5px center; 
+    background-size: 18px 18px;    
+}
+    .save:hover {
+        color: #fff;
+        background-color: #428bca;
+        border-color: #357ebd;
+    }
+
+.upload {
+    color: #fff;
+    border-color: #285e8e;
+    padding: 5px 5px 5px 28px;
+    background:#3071a9 url(Images/upload.png) no-repeat scroll 5px center; 
+    background-size: 18px 18px;    
+}
+    .upload:hover {
+        color: #fff;
+        background-color: #428bca;
+        border-color: #357ebd;
+    }
+
+
+.update {
+    color: #fff;
+    border-color: #285e8e;
+    padding: 5px 5px 5px 28px;
+    background:#3071a9 url(Images/update.png) no-repeat scroll 5px center; 
+    background-size: 18px 18px;    
+}
+    .update:hover {
+        color: #fff;
+        background-color: #428bca;
+        border-color: #357ebd;
+    }
+
+.goback {
+    color: #fff;
+    border-color: #d58512;
+    padding: 5px 5px 5px 28px;
+    background:#ec971f url(Images/back.png) no-repeat scroll 5px center; 
+    background-size: 18px 18px;    
+}
+    .goback:hover {
+        color: #fff;
+        background-color: #f0ad4e;
+        border-color: #eea236;
+    }
+
+.print {
+    color: #fff;
+    border-color: #269abc;
+    padding: 5px 5px 5px 28px;
+    background:#31b0d5 url(Images/print.png) no-repeat scroll 5px center; 
+    background-size: 18px 18px;    
+}
+    .print:hover {
+        color: #fff;
+        background-color: #5bc0de;
+        border-color: #46b8da;
+    }
+
+
+.approve {
+    color: #fff;
+    border-color: #398439;
+    padding: 5px 5px 5px 28px;
+    background:#449d44 url(Images/approve.png) no-repeat scroll 5px center; 
+    background-size: 18px 18px;    
+}
+    .approve:hover {
+        color: #fff;
+        background-color: #5cb85c;
+        border-color: #4cae4c;
+    }
+
+.reject {
+    color: #fff;
+    border-color: #ac2925;
+    padding: 5px 5px 5px 28px;
+    background:#c9302c url(Images/reject.png) no-repeat scroll 5px center; 
+    background-size: 18px 18px;    
+}
+    .reject:hover {
+        color: #fff;
+        background-color: #d9534f;
+        border-color: #d43f3a;
+    }
+
+.excel {
+    color: #fff;
+    border-color: #269abc;
+    padding: 5px 5px 5px 28px;
+    background:#31b0d5 url(Images/excel.png) no-repeat scroll 5px center; 
+    background-size: 18px 18px;    
+}
+    .excel:hover {
+        color: #fff;
+        background-color: #5bc0de;
+        border-color: #46b8da;
+    }
+
+.pdf {
+    color: #fff;
+    border-color: #269abc;
+    padding: 5px 5px 5px 28px;
+    background:#31b0d5 url(Images/pdf.png) no-repeat scroll 5px center; 
+    background-size: 18px 18px;    
+}
+    .pdf:hover {
+        color: #fff;
+        background-color: #5bc0de;
+        border-color: #46b8da;
+    }
+
+.clear {
+    color: #fff;
+    border-color: #d58512;
+    padding: 5px 5px 5px 28px;
+    background:#ec971f url(Images/clear.png) no-repeat scroll 5px center; 
+    background-size: 18px 18px;    
+}
+    .clear:hover {
+        color: #fff;
+        background-color: #f0ad4e;
+        border-color: #eea236;
+    }
+
+.cancel {
+    color: #fff;
+    border-color: #ac2925;
+    padding: 5px 5px 5px 28px;
+    background:#c9302c url(Images/cancel.png) no-repeat scroll 5px center; 
+    background-size: 18px 18px;    
+}
+    .cancel:hover {
+        color: #fff;
+        background-color: #d9534f;
+        border-color: #d43f3a;
+    }
+
+.closeTheme {
+    color: #fff;
+    border-color: #ac2925;
+    padding: 5px 5px 5px 28px;
+    background:#c9302c url(Images/close.png) no-repeat scroll 5px center; 
+    background-size: 18px 18px;    
+}
+    .closeTheme:hover {
+        color: #fff;
+        background-color: #d9534f;
+        border-color: #d43f3a;
+    }
+
+.delete {
+    color: #fff;
+    border-color: #ac2925;
+    padding: 5px 5px 5px 28px;
+    background:#c9302c url(Images/delete.png) no-repeat scroll 5px center; 
+    background-size: 18px 18px;    
+}
+    .delete:hover {
+        color: #fff;
+        background-color: #d9534f;
+        border-color: #d43f3a;
+    }
+
+.copy {
+    color: #fff;
+    border-color: #285e8e;
+    padding: 5px 5px 5px 28px;
+    background:#3071a9 url(Images/copy.png) no-repeat scroll 5px center; 
+    background-size: 18px 18px;    
+}
+    .copy:hover {
+        color: #fff;
+        background-color: #428bca;
+        border-color: #357ebd;
+    }
+
+.download {
+    color: #fff;
+    border-color: #285e8e;
+    padding: 5px 5px 5px 28px;
+    background:#3071a9 url(Images/download.png) no-repeat scroll 5px center; 
+    background-size: 18px 18px;    
+}
+    .download:hover {
+        color: #fff;
+        background-color: #428bca;
+        border-color: #357ebd;
+    }
+
+.change {
+    color: #fff;
+    border-color: #285e8e;
+    padding: 5px 5px 5px 28px;
+    background:#3071a9 url(Images/change.png) no-repeat scroll 5px center; 
+    background-size: 18px 18px;    
+}
+    .change:hover {
+        color: #fff;
+        background-color: #428bca;
+        border-color: #357ebd;
+    }
+
+.view {
+    color: #fff;
+    border-color: #285e8e;
+    padding: 5px 5px 5px 28px;
+    background:#3071a9 url(Images/view.png) no-repeat scroll 5px center; 
+    background-size: 18px 18px;    
+}
+    .view:hover {
+        color: #fff;
+        background-color: #428bca;
+        border-color: #357ebd;
+    }
+
+.reset {
+    color: #fff;
+    border-color: #d58512;
+    padding: 5px 5px 5px 28px;
+    background:#ec971f url(Images/reset.png) no-repeat scroll 5px center; 
+    background-size: 18px 18px;    
+}
+    .reset:hover {
+        color: #fff;
+        background-color: #f0ad4e;
+        border-color: #eea236;
+    }
+
+.calculate {
+    color: #fff;
+    border-color: #285e8e;
+    padding: 5px 5px 5px 28px;
+    background:#3071a9 url(Images/calculate.png) no-repeat scroll 5px center; 
+    background-size: 18px 18px;    
+}
+    .calculate:hover {
+        color: #fff;
+        background-color: #428bca;
+        border-color: #357ebd;
+    }
+
+.apply {
+    color: #fff;
+    border-color: #285e8e;
+    padding: 5px 5px 5px 28px;
+    background:#3071a9 url(Images/apply.png) no-repeat scroll 5px center; 
+    background-size: 18px 18px;    
+}
+    .apply:hover {
+        color: #fff;
+        background-color: #428bca;
+        border-color: #357ebd;
+    }
+
+.up {
+    color: #fff;
+    border-color: #285e8e;
+    padding: 5px 5px 5px 28px;
+    background:#3071a9 url(Images/up.png) no-repeat scroll 5px center; 
+    background-size: 18px 18px;    
+}
+    .up:hover {
+        color: #fff;
+        background-color: #428bca;
+        border-color: #357ebd;
+    }
+
+.down {
+    color: #fff;
+    border-color: #285e8e;
+    padding: 5px 5px 5px 28px;
+    background:#3071a9 url(Images/down.png) no-repeat scroll 5px center; 
+    background-size: 18px 18px;    
+}
+    .down:hover {
+        color: #fff;
+        background-color: #428bca;
+        border-color: #357ebd;
+    }
+
+.mail {
+    color: #fff;
+    border-color: #269abc;
+    padding: 5px 5px 5px 28px;
+    background:#31b0d5 url(Images/mail.png) no-repeat scroll 5px center; 
+    background-size: 18px 18px;    
+}
+    .mail:hover {
+        color: #fff;
+        background-color: #5bc0de;
+        border-color: #46b8da;
+    }
+
+.textarea {
+    resize:none;
+}
+
+.Editbuttonstyle
+{
+	border: 0px; 
+	color: #019070;
+	font-family: Calibri;
+	font-size: small;
+	text-decoration:none;
+	font-weight:bold;
+}
+.Editbuttonstyle:hover
+{
+	text-decoration:underline;
+	color: #019070;
+}
+.Deletebuttonstyle
+{
+	border: 0px; 
+	color: #b61a06;
+	font-family: Calibri;
+	font-size: small;
+	text-decoration:none;
+	font-weight:bold;
+}
+.Deletebuttonstyle:hover
+{
+	text-decoration:underline;
+	color: #b61a06;
+}
+
+.icon {
+    border: 0px;
+	font-family: Calibri;
+	font-size: small;
+	text-decoration:none;
+	font-weight:bold;
+    padding-right:3px;
+}
+
+.Edit
+{
+	color: #525252;
+}
+.Delete
+{
+	color: #b61a06;
+}
+.Approve
+{
+	color: #00CA79;
+}
+.Reject
+{
+	color: #b61a06;
+}
+.Update
+{
+	color: #4380B8;
+}
+
+.Cancel
+{
+	color: #b61a06;
+}
+.Reset
+{
+	color: #8f8338;
+}
+
+.gridstyle
+{
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    font-size:13px;
+    padding:5px;
+    font-family:Calibri;
+}
+
+.GridPager a, .GridPager span
+{
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
+.GridPager a
+{
+    margin-top:5px;
+    background-color: #fff;
+    color: #525252;
+    border: 1px solid #969696;
+    padding:0 5px 0 5px;
+    border-radius: 12px;
+    border-radius: 12px;
+    font-size:12px;
+    font-weight:normal;
+}
+.GridPager a:hover{
+    background: #00CA79;
+    color:#fff;
+}
+
+.GridPager span
+{
+    margin-top:5px;
+    background-color: #00CA79;
+    color: #fff;
+    border: 1px solid #969696;
+    padding:0 5px 0 5px;
+    border-radius: 12px;
+    border-radius: 12px;
+    font-size:12px;
+}
+.gridheader
+{
+    color: #fff;
+    background-color: #428bca;
+    min-height:30px;
+    text-align:center;
+}
+.Grid, .Grid th, .Grid td
+{
+    border-color: #cccccc;
+}
+
+.Gridvertical, .Gridvertical th, .Gridvertical td
+{
+    border-color: #6b6969;
+}
+.FooterStyle
+{
+	padding: 2px 2px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+}
+
+.AltRowStyle  
+{
+	background-color:#f2f2f2;
+}
+
+
+/* .shadow_select
+{
+  color:#262626;
+  font: 13px Arial, Helvetica, sans-serif;  
+ }
+
+
+
+.list
+{
+    border:solid 1px #ccc;
+    padding:3px;
+}*/
+
+
+
+
